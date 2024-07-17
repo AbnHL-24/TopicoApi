@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TopicoApiApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TopicoApiApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TopicoApiApplication.class, args);
+    }
 
 }
