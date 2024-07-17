@@ -1,0 +1,14 @@
+
+CREATE TABLE usuario(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(150) NOT NULL,
+    usuario VARCHAR(50) NOT NULL,
+    password VARCHAR(500) NOT NULL
+);
+
+CREATE TABLE topico (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    titulo VARCHAR(150) NOT NULL,
+    mensaje VARCHAR(500) NOT NULL,
+    fecha_creacion DATE NOT NULL
+);
